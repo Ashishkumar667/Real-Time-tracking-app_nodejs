@@ -12,3 +12,9 @@ body{
     width: 100%;
     height: 100%;
 }
+Button {
+    width: 12%;
+    background:fixed;
+    color:white;
+    background-color: rgb(104, 104, 198);
+}

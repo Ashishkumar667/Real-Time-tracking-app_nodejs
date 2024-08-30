@@ -23,10 +23,10 @@ if (navigator.geolocation) {
 const map = L.map("map",{
     dragging: true,
     scrollWheelZoom: true
-}).setView([0, 0], 16);
+}).setView([0, 0], 20);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "OpenStreetMap"
+    attribution: "venna-villa"
 }).addTo(map);
 
 
